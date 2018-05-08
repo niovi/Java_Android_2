@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Sensors.GyroscopeSensorTools.SetGyroscopeFragment">
+
+    <LinearLayout
+        android:id="@+id/fragment_set_gyro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+    <TextView
+        android:text="@string/seek_gyroscope_X"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/parameter03_X"
+        android:layout_weight="0.08" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/seek_parameter03_X" />
+
+    <TextView
+        android:text="@string/seek_gyroscope_Y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/parameter03_Y"
+        android:layout_weight="0.08" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/seek_parameter03_Y" />
+
+    <TextView
+        android:text="@string/seek_gyroscope_Z"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/parameter03_Z"
+        android:layout_weight="0.08" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/seek_parameter03_Z" />
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:text="@string/seek_gyroscope_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/parameter03_time"
+        android:layout_weight="0.08" />
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/seek_parameter03_time" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Collision Alert</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+    <string name="dots_menu">Pop Menu Button</string>
+    <string name="back_arrow">Back Arrow Button</string>
+    <string name="app_icon">Application Icon</string>
+
+    <string name="action_exit">Exit</string>
+    <string name="App_Settings">com.example.katerina.collisionalert.R.xml.app_settings_file</string>
+
+    <string name="light_sensor">Light Sensor</string>
+    <string name="seek_light">Light Sensor Seekbar</string>
+    <string name="seek_light_time">Light Sensor Time Interval Seekbar</string>
+
+    <string name="proximity_sensor">Proximity Sensor</string>
+    <string name="seek_proximity">Proximity Sensor Seekbar</string>
+    <string name="seek_proximity_time">Proximity Sensor Time Interval Seekbar</string>
+
+
+    <string name="gyroscope_sensor">Gyroscope Sensor</string>
+    <string name="gyroscope_sensor_X">Gyroscope Sensor X axis</string>
+    <string name="seek_gyroscope_X">Gyroscope Sensor Seekbar X axis</string>
+    <string name="seek_gyroscope_time">Gyroscope Sensor Time Interval Seekbar </string>
+
+    <string name="gyroscope_sensor_Y">Gyroscope Sensor Y axis</string>
+    <string name="seek_gyroscope_Y">Gyroscope Sensor Seekbar Y axis</string>
+
+    <string name="gyroscope_sensor_Z">Gyroscope Sensor Z axis</string>
+    <string name="seek_gyroscope_Z">Gyroscope Sensor Seekbar Z axis</string>
+
+    <string name="linear_accelerator_sensor">Linear Accelerator Sensor</string>
+    <string name="linear_accelerator_sensor_X">Linear Accelerator Sensor X axis</string>
+    <string name="seek_linear_accelerator_X">Linear Accelerator Sensor Seekbar X axis</string>
+    <string name="seek_linear_accelerator_time">Linear Accelerator Sensor Time Interval Seekbar </string>
+
+    <string name="linear_accelerator_sensor_Y">Linear Accelerator Sensor Y axis</string>
+    <string name="seek_linear_accelerator_Y">Linear Accelerator Sensor Seekbar Y axis</string>
+
+    <string name="linear_accelerator_sensor_Z">Linear Accelerator Sensor Z axis</string>
+    <string name="seek_linear_accelerator_Z">Linear Accelerator Sensor Seekbar Z axis</string>
+
+
+    <string name="accelerator_sensor">Accelerator Sensor</string>
+    <string name="accelerator_sensor_X">Accelerator Sensor X axis</string>
+    <string name="seek_accelerator_X">Accelerator Sensor Seekbar X axis</string>
+    <string name="seek_accelerator_time">Accelerator Sensor Time Interval Seekbar </string>
+
+    <string name="accelerator_sensor_Y">Accelerator Sensor Y axis</string>
+    <string name="seek_accelerator_Y">Accelerator Sensor Seekbar Y axis</string>
+
+    <string name="accelerator_sensor_Z">Accelerator Sensor Z axis</string>
+    <string name="seek_accelerator_Z">Accelerator Sensor Seekbar Z axis</string>
+
+    <string name="location_manager">Location Manager</string>
+    <string name="location_manager_X">Longitude</string>
+    <string name="seek_location_manager_X">Longitude Threshold</string>
+    <string name="seek_location_manager_time">Location Manager Time Interval Seekbar </string>
+
+    <string name="location_manager_Y">Latitude</string>
+    <string name="seek_location_manager_Y">Latitude Threshold</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="available">Available</string>
+    <string name="press_to_inform_about_availability">Press to inform about availability</string>
+    <string name="insert_broker_s_port">Insert broker\'s port</string>
+    <string name="insert_broker_s_ip">Insert broker\'s IP</string>
+    <string name="ok">OK</string>
+
+
+</resources>

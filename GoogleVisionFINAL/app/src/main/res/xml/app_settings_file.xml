@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="threshold_01">5000</string>
+    <string name="threshold_02">5000</string>
+    <string name="threshold_03">5000</string>
+    <string name="threshold_04">5000</string>
+
+    <string name="time_interval_01">500</string>
+    <string name="time_interval_02">500</string>
+    <string name="time_interval_03">500</string>
+    <string name="time_interval_04">500</string>
+
+    <string name="availability_01">NOT AVAILABLE</string>
+    <string name="availability_02">NOT AVAILABLE</string>
+    <string name="availability_03">NOT AVAILABLE</string>
+    <string name="availability_04">NOT AVAILABLE</string>
+
+    <string name="value_01">0.0</string>
+    <string name="value_02">0.0</string>
+    <string name="value_03">0.0</string>
+    <string name="value_04">0.0</string>
+
+
+</PreferenceScreen>

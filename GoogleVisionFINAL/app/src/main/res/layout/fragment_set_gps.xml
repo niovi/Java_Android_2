@@ -1,0 +1,91 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Sensors.GPSTools.SetGPSFragment">
+
+    <LinearLayout
+        android:id="@+id/fragment_set_gps"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:text="@string/seek_location_manager_X"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/parameter06_X_A"
+            android:layout_weight="0.08" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/seek_parameter06_X_A" />
+
+        <TextView
+            android:text="@string/seek_location_manager_X"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/parameter06_X_B"
+            android:layout_weight="0.08" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/seek_parameter06_X_B" />
+
+        <TextView
+            android:text="@string/seek_location_manager_Y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/parameter06_Y_A"
+            android:layout_weight="0.08" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/seek_parameter06_Y_A" />
+
+        <TextView
+            android:text="@string/seek_location_manager_Y"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/parameter06_Y_B"
+            android:layout_weight="0.08" />
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/seek_parameter06_Y_B" />
+
+
+
+        <TextView
+            android:text="@string/seek_location_manager_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/parameter06_time"
+            android:layout_weight="0.08" />
+
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/seek_parameter06_time" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

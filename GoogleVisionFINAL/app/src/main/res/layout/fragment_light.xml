@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Sensors.LightSensorTools.LightFragment">
+
+    <TextView
+        android:text="@string/light_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LIGHT_reading"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+</FrameLayout>

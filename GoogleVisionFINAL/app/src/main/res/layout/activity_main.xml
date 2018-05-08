@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.katerina.anaptyksi_1617_kmns.Activities.MainActivity">
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar">
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:clickable="false">
+
+            <ImageButton
+                android:layout_width="53dp"
+                android:layout_height="48dp"
+
+                android:id="@+id/BackArrow"
+                android:layout_gravity="top|start|center"
+
+                android:showAsAction="always"
+                android:icon="@mipmap/back_arrow"
+                android:contentDescription="@string/back_arrow"
+                android:background="@mipmap/back_arrow"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:id="@+id/imageView2"
+                android:contentDescription="@string/app_icon"
+                android:layout_weight="0.06" />
+
+            <TextView
+                android:text="@string/app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/APP_TITLE"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="top|center|center"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal|bold"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"
+                tools:paddingLeft="@dimen/activity_vertical_margin"
+                android:paddingTop="12dp" />
+
+            <ImageButton
+                android:layout_width="53dp"
+                android:layout_height="48dp"
+
+                android:id="@+id/PopButton"
+                android:layout_gravity="top|end|center"
+
+                android:showAsAction="always"
+                android:icon="@mipmap/button_switch_vertical"
+                android:contentDescription="@string/dots_menu"
+                android:background="@mipmap/button_switch_vertical"
+                android:layout_weight="1" />
+
+
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Switch
+            android:id="@+id/status_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:checked="false"
+            android:text="Connectivity Status"
+            android:textColor="@android:color/white"
+            android:textOff="OFF"
+            android:textOn="ON"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Switch
+            android:id="@+id/vision_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_dark"
+            android:checked="false"
+            android:text="Google Vision Status"
+            android:textColor="@android:color/white"
+            android:textOff="OFF"
+            android:textOn="ON"
+            tools:ignore="HardcodedText"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+
+
+    <TextView
+        android:text="@string/light_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LIGHT_available"
+        android:layout_marginTop="20dp"
+
+
+
+        />
+
+
+        <LinearLayout
+            android:id="@+id/fragment_container_01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+
+
+
+
+        <TextView
+            android:text="@string/proximity_sensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/PROXIMITY_available"
+            android:layout_marginTop="20dp"
+
+            />
+
+
+        <LinearLayout
+            android:id="@+id/fragment_container_02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:text="@string/gyroscope_sensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/GYROSCOPE_available"
+            android:layout_marginTop="20dp"
+
+            tools:ignore="HardcodedText" />
+
+
+        <LinearLayout
+            android:id="@+id/fragment_container_03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:text="@string/linear_accelerator_sensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LINEAR_available"
+            android:layout_marginTop="20dp"
+
+            tools:ignore="HardcodedText" />
+
+
+
+        <LinearLayout
+            android:id="@+id/fragment_container_04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/accelerator_sensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ACCEL_available"
+            android:layout_marginTop="20dp"
+
+            tools:ignore="HardcodedText" />
+
+
+
+        <LinearLayout
+            android:id="@+id/fragment_container_05"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:text="@string/location_manager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/GPS_available"
+            android:layout_marginTop="20dp"
+
+            tools:ignore="HardcodedText" />
+
+
+
+        <LinearLayout
+            android:id="@+id/fragment_container_06"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

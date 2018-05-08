@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Sensors.GyroscopeSensorTools.GyroscopeFragment">
+
+    <LinearLayout
+        android:id="@+id/fragment_gyro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:text="@string/gyroscope_sensor_X"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/GYROSCOPE_reading_X"
+        android:layout_marginTop="20dp"
+
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:text="@string/gyroscope_sensor_Y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/GYROSCOPE_reading_Y"
+        android:layout_marginTop="20dp"
+
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:text="@string/gyroscope_sensor_Z"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/GYROSCOPE_reading_Z"
+        android:layout_marginTop="20dp"
+
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.example.katerina.anaptyksi_1617_kmns.Activities.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:id="@+id/appBarLayout">
+
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:clickable="false">
+
+
+            <ImageButton
+                android:layout_width="53dp"
+                android:layout_height="48dp"
+
+                android:id="@+id/BackArrow"
+                android:layout_gravity="top|start|center"
+
+                android:showAsAction="always"
+                android:icon="@mipmap/back_arrow"
+                android:contentDescription="@string/back_arrow"
+                android:background="@mipmap/back_arrow"
+                android:layout_weight="1" />
+
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:id="@+id/imageView2"
+                android:contentDescription=""
+                android:layout_weight="0.06" />
+
+            <TextView
+                android:text="@string/title_activity_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/SET_TITLE"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="top|center|center"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal|bold"
+                android:textSize="36sp"
+                android:textColor="@android:color/black" />
+
+
+
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:id="@+id/fragment_container_01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_container_02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_container_03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_container_04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/fragment_container_05"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/fragment_container_06"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

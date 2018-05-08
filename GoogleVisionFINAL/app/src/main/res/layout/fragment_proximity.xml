@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Sensors.ProximitySensorTools.ProximityFragment">
+
+    <TextView
+        android:text="@string/proximity_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PROXIMITY_reading"
+        android:layout_marginTop="20dp"
+
+        />
+
+</FrameLayout>
